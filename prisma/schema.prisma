@@ -1,0 +1,68 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum EnquiryStatus {
+  NEW
+  IN_PROGRESS
+  CLOSED
+}
+
+model QuoteRequest {
+  id        String        @id @default(cuid())
+  name      String
+  company   String?
+  email     String
+  phone     String
+  service   String
+  budget    String
+  timeline  String
+  message   String
+  status    EnquiryStatus @default(NEW)
+  createdAt DateTime      @default(now())
+}
+
+model ContactMessage {
+  id        String        @id @default(cuid())
+  name      String
+  email     String
+  phone     String?
+  message   String
+  status    EnquiryStatus @default(NEW)
+  createdAt DateTime      @default(now())
+}
+
+model CareersApplication {
+  id         String        @id @default(cuid())
+  name       String
+  email      String
+  phone      String
+  role       String
+  coverNote  String
+  resumeUrl  String?
+  status     EnquiryStatus @default(NEW)
+  createdAt  DateTime      @default(now())
+}
+
+model PartnershipRequest {
+  id              String        @id @default(cuid())
+  name            String
+  organisation    String
+  email           String
+  phone           String
+  partnershipType String
+  message         String
+  status          EnquiryStatus @default(NEW)
+  createdAt       DateTime      @default(now())
+}
+
+model NewsletterSubscriber {
+  id        String   @id @default(cuid())
+  email     String   @unique
+  createdAt DateTime @default(now())
+}
