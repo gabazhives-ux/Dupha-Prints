@@ -30,7 +30,7 @@ export default function TestimonialsPage() {
                     <Star key={i} size={16} fill="currentColor" strokeWidth={0} />
                   ))}
                 </div>
-                <p className="mt-4 text-ink-950/75">"{t.quote}"</p>
+                <p className="mt-4 text-ink-950/75">&ldquo;{t.quote}&rdquo;</p>
                 <p className="mt-5 text-sm font-semibold text-ink-950">{t.name}</p>
                 <p className="text-xs text-ink-950/50">{t.role}</p>
               </div>

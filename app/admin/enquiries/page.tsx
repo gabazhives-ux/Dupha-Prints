@@ -66,7 +66,7 @@ export default async function AdminEnquiriesPage({
         <div className="mt-8 overflow-x-auto rounded-2xl border border-ink-950/8 bg-white">
           {rows.length === 0 ? (
             <p className="p-8 text-sm text-ink-950/50">
-              No records yet — or the database isn't connected. See the README for setup.
+              No records yet — or the database isn&apos;t connected. See the README for setup.
             </p>
           ) : (
             <table className="w-full text-left text-sm">

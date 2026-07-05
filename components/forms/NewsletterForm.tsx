@@ -58,7 +58,7 @@ export default function NewsletterForm() {
         <p className="mt-2 text-xs text-press-red">{errors.email.message}</p>
       )}
       {status === "success" && (
-        <p className="mt-2 text-xs text-cyan-light">You're subscribed — thank you.</p>
+        <p className="mt-2 text-xs text-cyan-light">You&apos;re subscribed — thank you.</p>
       )}
       {status === "error" && (
         <p className="mt-2 text-xs text-press-red">

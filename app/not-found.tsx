@@ -42,9 +42,9 @@ export default function NotFound() {
         <span data-layer className="absolute inset-0 font-display text-[9rem] text-cyan/70 sm:text-[12rem]">404</span>
         <span data-layer className="relative font-display text-[9rem] text-paper sm:text-[12rem]">404</span>
       </div>
-      <h1 className="mt-8 font-display text-3xl text-paper sm:text-4xl">This page didn't make it to press.</h1>
+      <h1 className="mt-8 font-display text-3xl text-paper sm:text-4xl">This page didn&apos;t make it to press.</h1>
       <p className="mt-4 max-w-md text-paper/60">
-        The page you're looking for may have moved or no longer exists. Let's get you back on track.
+        The page you&apos;re looking for may have moved or no longer exists. Let&apos;s get you back on track.
       </p>
       <div className="mt-10 flex flex-wrap justify-center gap-4">
         <Button href="/">Back to Home</Button>

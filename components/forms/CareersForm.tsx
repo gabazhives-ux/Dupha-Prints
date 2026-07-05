@@ -88,7 +88,7 @@ export default function CareersForm() {
           {errors.phone && <p className="mt-1.5 text-xs text-press-red">{errors.phone.message}</p>}
         </div>
         <div>
-          <label className={labelClass} htmlFor="role">Role you're applying for</label>
+          <label className={labelClass} htmlFor="role">Role you&apos;re applying for</label>
           <select id="role" className={inputClass} defaultValue="" {...register("role")}>
             <option value="" disabled>Select a role</option>
             {jobOpenings.map((j) => (

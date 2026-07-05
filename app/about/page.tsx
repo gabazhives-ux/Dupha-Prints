@@ -41,7 +41,7 @@ export default function AboutPage() {
                 Lagos: print vendors that were either fast and inconsistent, or careful and slow.
                 We built our process to remove that trade-off — a dedicated production line for
                 digital and offset work, in-house large-format equipment, and a team that reviews
-                every job against a colour bar before it's approved for release.
+                every job against a colour bar before it&apos;s approved for release.
               </p>
               <p>
                 Today we produce everything from single canvas prints and personalised mugs to

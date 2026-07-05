@@ -33,7 +33,7 @@ export default function Testimonials() {
               ))}
             </div>
             <p className="mx-auto mt-6 max-w-2xl text-balance font-display text-2xl leading-snug text-paper sm:text-3xl">
-              "{t.quote}"
+              &ldquo;{t.quote}&rdquo;
             </p>
             <p className="mt-6 text-sm text-paper/60">
               {t.name} — {t.role}

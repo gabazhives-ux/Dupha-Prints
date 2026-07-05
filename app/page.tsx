@@ -43,7 +43,7 @@ export default function HomePage() {
                 <ShieldCheck className="text-cyan-dark" size={22} />
                 <h3 className="mt-4 font-display text-xl text-ink-950">Colour-accurate</h3>
                 <p className="mt-2 text-sm text-ink-950/60">
-                  Every job is checked against a colour bar before it's approved for release.
+                  Every job is checked against a colour bar before it&apos;s approved for release.
                 </p>
               </GlassCard>
               <GlassCard className="!bg-white/70 !border-ink-950/8">
